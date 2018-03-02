@@ -18,7 +18,5 @@
 
 # 职位测试目录
 
-|职位|测试要求|
-|---|---|
-|Android研发工程师|[android-ios.md]|
-|iOS研发工程师|[android-ios.md]|
+- [Android研发工程师](android-ios.md)
+- [iOS研发工程师](android-ios.md)
