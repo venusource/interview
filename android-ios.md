@@ -55,9 +55,10 @@ StatusCode: 200
 |size|int|10|一页所包含的记录数|
 |first|bool|true|是否第一页|
 |last|bool|false|是否第一页|
-|content|list||页面内容，类型是app|
+|content|[app]||页面内容，类型是app|
 
 app
+
 |字段名|类型|默认值|说明|
 |---|---|---|---|
 |id|int||应用唯一标识|
@@ -65,7 +66,7 @@ app
 |type|enum|web|应用类型，web/android/ios|
 |package|string||应用的包名|
 |version|string||应用的版本|
-|icon|[{size,link}]|应用的不同尺寸的图标|
+|icon|[{size,link}]||应用的不同尺寸的图标|
 |url|string||web app的入口地址|
 |scheme|string||原生应用的自定义scheme|
 
